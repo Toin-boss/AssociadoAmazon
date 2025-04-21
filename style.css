@@ -26,13 +26,22 @@ footer{
     color: rgb(0, 0, 0);
     padding: 5px;
 }
+.products{
+    height: auto; 
+    display: flex; 
+    flex-wrap: nowrap; 
+    overflow: auto;
+    padding: 10px;
+    
+}
 .container{
-    display: inline-block;
-    background-color: rgb(204, 205, 205);
+    background-color: rgb(255, 255, 255);
     height: 200px;
     margin: 0px 40px 0px 40px;
     border-radius: 10px;
+    flex: 0 0 auto;
 }
+
 .conteudo{
     display: inline-block;
     width: 150px;
